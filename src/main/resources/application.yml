@@ -1,0 +1,13 @@
+greeting:
+  message: "hello"
+server:
+  port: 8080
+
+quarkus:
+  datasource:
+    db-kind: postgresql
+    username: postgres
+    password: postgres
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/quarkus-social
+      max-size: 16
